@@ -15,4 +15,4 @@ jobs:
           target_repo_url:
             git@gitlab.com:rwkgyg/123.git
           ssh_private_key:
-            ${{ secrets.SSH_PRIVATE_KEY }}
+            ${{ secrets.SSH_Deploy_key }}
