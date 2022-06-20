@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
-          ssh-add ~/.ssh/id_rsa_gitlab
+          
           target_repo_url:
              
             # https://gitlab.com/rwkgyg/123.git
