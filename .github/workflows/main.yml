@@ -13,6 +13,7 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
+             ssh-add ~/.ssh/id_rsa_gitlab
             # https://gitlab.com/rwkgyg/123.git
              git@gitlab.com:rwkgyg/123.git
           ssh_private_key:
